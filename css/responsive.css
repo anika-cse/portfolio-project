@@ -495,11 +495,11 @@
 @media (min-width: 768px) and (max-width: 991px){
     .navbar {
         top: 0;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(54, 158, 243, 0.3);
     }
 
     .navbar .navbar-nav{
-        background: #ffffff;
+        background: #e2e7e7;
         text-align: center;
     }
 
@@ -520,26 +520,39 @@
     }
 
     #banner .banner-person .person-border::after{
-        width: 196px !important;
-        display: none;
+        width: 155px !important;
+        top: 36px;
+        left: 36px
     }
 
-    #banner .banner-person .person-border::before{
-        display: none;
+
+    #banner .banner-person .person-border::before {
+        height: 90px;
+        top: 36px;
+        left: 35px;
     }
 
-    #banner .banner-person::before{
-        height: 298px;
-        display: none;
+    #banner .banner-person::before {
+        height: 240px;
+        top: 36px;
+        right: 25px;
     }
 
     #banner .banner-person::after {
-       display: none;
+        width: 35px;
+        bottom: 54px;
+        right: 25px;
     }
 
     #banner .banner-person .banner-message{
-        top: 130px;
-        display: none;
+        top: 100px;
+    }
+
+    #banner .banner-person .banner-message i {
+        width: 50px !important;
+        height: 50px !important;
+        font-size: 25px !important;
+        line-height: 50px !important;
     }
 
     #banner .banner-text p{
@@ -682,6 +695,11 @@
 
     /* testimonial css ends */
 
+    #newsletter {
+        padding-bottom: 60px !important;
+    }
+
+    /* newsletter css ends */
     
     #brand{
         padding-bottom: 60px !important;
